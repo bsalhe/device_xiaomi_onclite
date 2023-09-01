@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+#Disable Kernel check
+PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := false
+
 DEVICE_PATH := device/xiaomi/onclite
 
 # Architecture
