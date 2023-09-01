@@ -13,11 +13,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/xiaomi/onclite/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_onclite
+PRODUCT_NAME := arrow_onclite
 PRODUCT_DEVICE := onclite
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 7
@@ -30,8 +30,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# riceDroid Stuff
-RISING_MAINTAINER := MrUn1corn
+# riceDroid Stuff fom mrun1corn
 WITH_GMS := false
 SUSHI_BOOTANIMATION := 720
 TARGET_BUILD_APERTURE_CAMERA := true

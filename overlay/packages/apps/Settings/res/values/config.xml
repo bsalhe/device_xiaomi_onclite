@@ -8,6 +8,9 @@
     <string name="config_batteryCalculatedCapacity">/sys/class/power_supply/bms/charge_full</string>
     <string name="config_batteryChargeCycles">/sys/class/power_supply/bms/cycle_count</string>
 
+        <!-- Device specific doze package From Arrow Docs --> 
+    <string name="config_customDozePackage">org.lineageos.settings/org.lineageos.settings.doze.DozeSettingsActivity</string>
+
     <!-- Whether memory from app_info_settings is available or not. -->
     <bool name="config_show_app_info_settings_memory">true</bool>
 </resources>
